@@ -4,7 +4,7 @@ set -e
 # variables
 REGISTRY=""
 BASE_PATH=""
-TAG="latest"
+TAG=""
 
 # list of service directories
 SERVICES=(
