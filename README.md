@@ -11,7 +11,7 @@ A Bash utility for building and pushing multiple Docker service images to a regi
 2. Edit the script (build.sh):
    - Set `REGISTRY` to your Docker registry (e.g., `docker.io/username` or `ghcr.io/org`)
    - Set `BASE_PATH` if needed (optional, e.g., `myproject`)
-   - Set `TAG` (default is `latest`)
+   - Set `TAG` (e.g., `latest`)
    - Add your service directories to the `SERVICES` array
    ```bash
    REGISTRY="docker.io/myuser"
