@@ -6,7 +6,7 @@ A Bash utility for building and pushing multiple Docker service images to a regi
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/<your-username>/docker-multi-build-push.git
+   git clone git@github.com:edenqyb/docker-multi-build-push.git
    cd docker-multi-build-push
 2. Edit the script (build.sh):
    - Set `REGISTRY` to your Docker registry (e.g., `docker.io/username` or `ghcr.io/org`)
